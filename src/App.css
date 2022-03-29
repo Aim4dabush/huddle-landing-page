@@ -1,0 +1,48 @@
+.App {
+  background-color: #674baf;
+  display: grid;
+  font-family: "Open Sans", sans-serif;
+  grid-template-columns: 100%;
+  grid-template-rows: 5% 10% 75% 10%;
+  height: 100vh;
+  width: 100vw;
+}
+
+#bottom-row {
+  z-index: 1;
+}
+
+#left-column {
+  z-index: 1;
+}
+
+#middle-row {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100%;
+}
+
+#right-column {
+  z-index: 1;
+}
+
+@media (max-width: 415px) {
+  .App {
+    background-color: #674baf;
+    display: grid;
+    font-family: "Open Sans", sans-serif;
+    grid-template-columns: none;
+    grid-template-rows: 1% 13% 73% 13%;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #middle-row {
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+
+  #top-row {
+    z-index: 1;
+  }
+}

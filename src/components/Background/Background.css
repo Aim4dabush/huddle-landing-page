@@ -1,0 +1,16 @@
+#desktop-background {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 415px) {
+  #desktop-background {
+    display: none;
+  }
+  #mobile-background {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+}

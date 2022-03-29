@@ -1,0 +1,21 @@
+#social-media {
+  display: flex;
+  justify-content: end;
+  margin-right: 16rem;
+}
+
+#social-media button {
+  background-color: #674baf;
+  border-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  padding: 12px;
+  margin-right: 1rem;
+}
+
+#social-media button:hover {
+  border-color: #e882e8;
+  color: #e882e8;
+}

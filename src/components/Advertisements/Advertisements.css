@@ -1,0 +1,31 @@
+#advertisements {
+  margin-left: 2rem;
+  margin-top: 9rem;
+}
+
+#advertisements button {
+  background-color: white;
+  border-color: #674baf;
+  border-radius: 50px;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #674baf;
+  margin-top: 1rem;
+  padding: 15px;
+  width: 190px;
+}
+
+#advertisements button:hover {
+  background-color: #e882e8;
+  border-color: #e882e8;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: white;
+}
